@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Primera pagina web</title>
+    <link rel="shortcut icon" href="img/favicon-jhin.png" type="image/x-icon">
+</head>
+<!-- SUBLIME -->
+
+<body>
+    <header>
+        <h1 id="titulo">EL BLOG DE JHIN</h1>
+        <h2>UN POCO DE SUBLIMIDAD</h2>
+        <p>hola mundo
+        
+        </p>
+    </header>
+    <section>
+        <article>
+            <h3>Jhin, El virtuoso <br>league of legends</h3>
+            <h4>Sobre Jhin</h4>
+            <p><strong>Jhin</strong> es un <span style="color: brown;">psicópata</span> meticuloso que cree que el
+                asesinato es un arte. Alguna vez un prisionero jonio, pero liberado por elementos sombríos dentro del
+                concejo líder de Jonia, el asesino en serie ahora presta susservicios como sicario a esa camarilla.
+                Utilizando su arma como un pincel, Jhin crea obras de arte brutales que horrorizan a sus víctimas y
+                testigos.
+                <br>Mostrar sus obras de horripilante drama le causa un placer retorcido, lo
+                que lo convierte en la mejor opción para mandar el más poderoso de los mensajes: <span
+                    style="color: brown;"><strong>el terror.</strong></span>
+            </p>
+            <a href="https://universe.leagueoflegends.com/en_US/story/champion/jhin/" target="_blank">Biografía del
+                campeón</a>
+            <h3>SPLASH ART</h3>
+            <img src="img/jhin.jpg" alt="splash art Jhin" width="450px">
+
+            <!-- <form> es para representar una sección del documento HTML que contengan controles interactivos
+                    para enviar info al servidor, por ejemplo, formularios, encuestas, pedidos, etc. -->
+            <form action="/formulario" method="get">
+                <label for="nomUsuario">Usuario</label>
+                <br>
+                <!-- <label> es para darle una etiqueta(nombre) al input el cual tenga señalado en for="id del imput" -->
+                <input type="text" id="nomUsuario" name="Usuario" placeholder="no traigo jhines" />
+                <!-- input me permite crear un control interactivo para poder recibir datos del usuario -->
+                <br>
+                <label for="comentarios">Comentarios</label>
+                <br>
+                <textarea name="Comentarios" id="comentarios" cols="50" rows="3" placeholder="sublime"></textarea>
+                <!--esto crea una caja de texto (como la de comentarios)-->
+                <br>
+                <input type="submit">
+            </form>
+        </article>
+        <article>
+            <h3>BUILD<br>league of legends</h3>
+            <h4>Mejores items de la temporada</h4>
+            <p>la mejor build de momento, es sin duda la que verás a continuacion.</p>
+            <h3>Objetos</h3>
+            <img src="img/build-jhin.jpg" alt="items principales Jhin" width="450">
+            <p>si quieres saber más <a href="https://www.leagueofgraphs.com/es/champions/builds/jhin"
+                    target="_blank">puedes ver...</a>
+            </p>
+
+            <!-- <form> es para representar una sección del documento HTML que contengan controles interactivos
+                    para enviar info al servidor, por ejemplo, formularios, encuestas, pedidos, etc. -->
+            <form action="/formulario" method="get">
+                <label for="nomUsuario">Usuario</label>
+                <br>
+                <!-- <label> es para darle una etiqueta(nombre) al input el cual tenga señalado en for="id del imput" -->
+                <input type="text" id="nomUsuario" name="Usuario" placeholder="no traigo jhines" />
+                <!-- input me permite crear un control interactivo para poder recibir datos del usuario -->
+                <br>
+                <label for="comentarios">Comentarios</label>
+                <br>
+                <textarea name="Comentarios" id="comentarios" cols="50" rows="3" placeholder="sublime"></textarea>
+                <!--esto crea una caja de texto (como la de comentarios)-->
+                <br>
+                <button type="submit">enviar</button>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <a href="mailto:hernandolaurens2004@gmail.com">correo gmail</a>
+        <br>
+        <a href="#titulo">Ir a inicio de la pagina</a>
+        <br>
+        <a href="https://signup.leagueoflegends.com/es-mx/signup/redownload">Juega ahora</a>
+    </footer>
+</body>
+
+</html>
